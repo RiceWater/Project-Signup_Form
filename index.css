@@ -1,0 +1,7 @@
+/* 
+  Palette: https://coolors.co/palette/060f14-0b191f-1e2a31-8e7265-edebe8
+*/
+
+img{
+  transform: scaleX(-1);
+}

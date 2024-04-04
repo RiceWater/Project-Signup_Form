@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- 
+  References:
+  https://dribbble.com/shots/20105576-Western-movie-sign-up-page
+  https://www.typeform.com/signup/
+  https://www.getresponse.com/start-free
+ -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +16,64 @@
 </head>
 
 <body>
+  <div class="left">
+    <img src="./img/gym-equipment.jpg" alt="Cool fitness equipment">
+    <span>Photo by <a
+        href="https://unsplash.com/@samuelgirven?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel
+        Girven</a> on <a
+        href="https://unsplash.com/photos/dumbbells-on-floor-VJ2s0c20qCo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    </span>
 
+    <img src="./img/dumbbell.png" alt="Dummy website logo">
+    <span><a href="https://www.flaticon.com/free-icons/gym" title="gym icons">Gym icons created by Freepik -
+        Flaticon</a></span>
+  </div>
+
+  <div class="right">
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam, in porro voluptatum illum magni quibusdam
+        veritatis architecto earum, mollitia quidem odio, dolores iusto? Quas rerum magni consequuntur repellat neque!
+      </p>
+    </div>
+    <form>
+      <div>
+        <div>Sign Up</div>
+
+        <label for="f_name">First Name
+          <input type="text" id="f_name" name="f_name" minlength="2" required>
+        </label>
+
+        <label for="l_name">Last Name
+          <input type="text" id="l_name" name="l_name" minlength="2" required>
+        </label>
+
+        <label for="email">Email
+          <input type="email" id="email" name="email" required>
+        </label>
+
+        <label for="phone">Phone Number
+          <input type="tel" id="phone" name="phone" required>
+        </label>
+
+        <label for="pass">Password
+          <input type="password" id="pass" name="pass" required>
+        </label>
+
+        <label for="confirm_pass">Confirm Password
+          <input type="password" id="confirm_pass" name="confirm_pass" required>
+        </label>
+
+        <label for="newsletter">
+          <input type="checkbox" name="newsletter" id="newsletter" checked>
+          I want to read weekly articles <strong>on getting fit more effectively.</strong>
+        </label>
+      </div>
+
+      <button type="button">Create Account</button>
+    </form>
+    <div>Already have an account? <a href="./index.html">Log In</a></div>
+
+  </div>
 </body>
 
 </html>
