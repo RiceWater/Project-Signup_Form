@@ -13,6 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fitness: Sign Up</title>
   <link rel="stylesheet" href="./index.css" />
+
 </head>
 
 <body>
@@ -41,48 +42,81 @@
   </div>
 
   <div class="right">
-    <div>
+    <div class="hook">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam, in porro voluptatum illum magni quibusdam
         veritatis architecto earum, mollitia quidem odio, dolores iusto? Quas rerum magni consequuntur repellat neque!
       </p>
     </div>
+
     <form>
-      <div>
-        <div>Sign Up</div>
+      <div class="form_content">
+        <div class="signup">Sign Up</div>
 
-        <label for="f_name">First Name
-          <input type="text" id="f_name" name="f_name" minlength="2" required>
-        </label>
+        <div class="grid_container" style="margin-bottom: 0px;">
+          <div class="grid_item_label1">
+            <label for="f_name">FIRST NAME</label>
+          </div>
 
-        <label for="l_name">Last Name
-          <input type="text" id="l_name" name="l_name" minlength="2" required>
-        </label>
+          <div class="grid_item_label2">
+            <label for="l_name">LAST NAME</label>
+          </div>
 
-        <label for="email">Email
-          <input type="email" id="email" name="email" required>
-        </label>
+          <div class="grid_item_input1">
+            <input type="text" id="f_name" name="f_name" minlength="2" required>
+          </div>
 
-        <label for="phone">Phone Number
-          <input type="tel" id="phone" name="phone" required>
-        </label>
+          <div class="grid_item_input2">
+            <input type="text" id="l_name" name="l_name" minlength="2" required>
+          </div>
 
-        <label for="pass">Password
-          <input type="password" id="pass" name="pass" required>
-        </label>
+          <div class="grid_item_label3">
+            <label for="email">EMAIL</label>
+          </div>
 
-        <label for="confirm_pass">Confirm Password
-          <input type="password" id="confirm_pass" name="confirm_pass" required>
-        </label>
+          <div class="grid_item_label4">
+            <label for="phone">PHONE NUMBER</label>
+          </div>
 
-        <label for="newsletter">
-          <input type="checkbox" name="newsletter" id="newsletter" checked>
-          I want to read weekly articles <strong>on getting fit more effectively.</strong>
-        </label>
+          <div class="grid_item_input3">
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="grid_item_input4">
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="grid_item_label5">
+            <label for="pass">PASSWORD</label>
+          </div>
+
+          <div class="grid_item_label6">
+            <label for="confirm_pass">CONFIRM PASSWORD</label>
+          </div>
+
+          <div class="grid_item_input5">
+            <input type="password" id="pass" name="pass" required>
+          </div>
+
+          <div class="grid_item_input6">
+            <input type="password" id="confirm_pass" name="confirm_pass" required>
+          </div>
+
+        </div>
+
+        <div class="newsletter" style="margin-bottom: .5rem;">
+          <input type="checkbox" name="newsletter" id="newsletter" class="asd" checked>
+          <label for="newsletter">
+            I want to read weekly articles <strong>on getting fit more effectively.</strong>
+          </label>
+        </div>
+
       </div>
 
-      <button type="button">Create Account</button>
+      <div class="bottom_wrapper">
+        <button type="submit">Create Account</button>
+        <div class="account">Already have an account? <a href="./index.html">Log In</a></div>
+      </div>
     </form>
-    <div>Already have an account? <a href="./index.html">Log In</a></div>
+    
 
   </div>
 </body>
