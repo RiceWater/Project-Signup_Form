@@ -175,3 +175,8 @@ button:active{
 }
 
 
+.pass:invalid,
+input:required:invalid{
+  border-color: rgb(172, 3, 3);
+}
+
